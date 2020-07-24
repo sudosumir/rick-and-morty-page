@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Rajdhani&display=swap');
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Titillium Web', sans-serif;
+  color: rgb(40, 180, 94);
+}
+
+.main-container {
+  align-content: center;
+  background-color: rgb(245, 241, 241);
+  /* box-shadow: 0 15px 25px 0 rgba(61, 61, 61, 0.637);
+  transition: 0.3s; */
+  width: 70%;
+  margin: 25px auto;
+}
+
+.first-sub-level {
+  background-color: #141829;
+  /*282f44
+  212121
+  */
+  margin: 0;
+  padding: 0;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.first-sub-level .logo {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 50%;
+  height: 160px;
+  align-self: center;
+}
+
+.first-sub-level h2 {
+  align-self: center;
+  font-family: 'Cousine', monospace;
+}
+
+.first-sub-level h2, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.input-character {
+  background-color: #141829f6;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-character input{
+  width: 20%;
+  align-self: center;
+  font-family: 'Cousine', monospace;
+  font-weight: 900;
+  border: none; 
+  padding:10px;
+  border-radius:10px;
+}
+
+.input-character input:focus{
+  outline: none;
+}
+
+.searching-results {
+  margin: 15px 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Cousine', monospace;
+  font-size: 5em;
+  color: black;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  box-shadow: 0 8px 10px 0 rgba(61, 61, 61, 0.637);
+  transition: 0.3s;
+  width: 350px;
+  background-color: white;
+  margin: 25px 15px;
+  padding: 0;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 16px 20px 0 rgba(61, 61, 61, 0.637);
+  -webkit-transform:scale(1.1);
+}
+
+.card img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+}
+
+
